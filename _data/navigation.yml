@@ -6,5 +6,5 @@ main:
     url: /about/
   - title: "Blog"
     url: "../_pages/under_construction.md"
-  - title: "Resume/CV"
-    url: "../_pages/under_construction.md"
+  - title: "Porfolio"
+    url: /credentials/

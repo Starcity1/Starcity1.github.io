@@ -309,7 +309,7 @@ defaults:
   # _blog
   - scope:
       path: ""
-      type: blog
+      collection: blog
       permalink: /blog/:title/
     values:
       layout: single

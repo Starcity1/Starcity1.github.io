@@ -23,13 +23,13 @@ In my perspective, the project rather represents as a way for anyone interested 
 
 ##### [Ghidra-Assistant](https://github.com/Starcity1/Ghidra-Assistant)
 <p style='font-size: 18px'>
-To be written
+A class-project turned into a small passion project. Using the power of text processing and embedding, the assistant will read a target binary Ghidra is able to process. It will then read prescribed functions given by the user and help the user understand the contents of the decompiled code. Uses OpenAI's API and JPype to connect and fetch information from some Ghidra project and feed it into a OpenAI's GPT-X model. Using basic prompt engineering the assistant is still ways to go from becoming project ready. In my opinion the project is in a "proof-of-concept" stage as of now. More work will be done in the future though.
 </p>
 
-##### [Rotating-Proxy](https://github.com/Starcity1/aws-rotating-proxy)
+<!-- ##### [Rotating-Proxy](https://github.com/Starcity1/aws-rotating-proxy)
 <p style='font-size: 18px'>
 A recent but quick project I worked on for a week as part of a challenge to learn a but more about the AWS service. Specifically, the project deals to the idea of a 'serveless' proxy using AWS Lambda function-based service. The project used the interesting for <a href='https://www.crummy.com/software/BeautifulSoup/bs4/doc/' target='_blank'>BeautifulSoup</a> library for the proxy to work. Rather a small project as the rotating-proxy does nothing but relay the requests. The project may serve as an amazing precursor for some Webscraper or other request-heavy implementation. In the sense that it will be harder to detect.
-</p>
+</p> -->
 
 ## Resume
 <iframe src="/assets/Portfolio-docs/website-resume.pdf" width="1000" height="1000" type='application/pdf'></iframe>

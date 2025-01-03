@@ -212,13 +212,8 @@ sass:
 
 
 # Outputting
-permalink: /:categories/:title/
+permalink: /:collection/:path/
 timezone: CST
-
-
-# Pagination with jekyll-paginate
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
 
 # Pagination with jekyll-paginate-v2
 # See https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md#site-configuration
@@ -227,16 +222,13 @@ pagination:
   # Set enabled to true to use paginate v2
   enabled: true
   debug: false
-  collection: 'pages'
+  collection: blog
   per_page: 10
-  permalink: '/page/:num/'
-  title: ':title - page :num'
+  permalink: /:collection/:path/
+  title: :title
   limit: 0
-  sort_field: 'date'
+  sort_field: date
   sort_reverse: true
-  category: 'pages'
-  tag: ''
-  locale: ''
   trail:
     before: 2
     after: 2
@@ -249,6 +241,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  # - jekyll-archives
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -295,6 +288,11 @@ compress_html:
   ignore:
     envs: development
 
+# Creating collections
+collections:
+  blog:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -306,6 +304,18 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      share: true
+      related: true
+  # _blog
+  - scope:
+      path: ""
+      type: blog
+      permalink: /blog/:title/
+    values:
+      layout: single
+      author_profile: false
+      show_date: true
+      read_time: true
+      comments: true
       share: true
       related: true

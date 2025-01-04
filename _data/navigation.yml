@@ -10,3 +10,5 @@ main:
     url: "/blog/"
   - title: "Porfolio"
     url: /credentials/
+  - title: "Recent Reads"
+    url: /recent-reads/

@@ -4,6 +4,18 @@ layout: archive
 permalink: /recent-reads/
 entries_layout: list
 
+articles:
+  - autodiff-paper:
+    title: Automatic Differentiation in Machine Learning - a Survey
+    image_path: /assets/images/Recent-Reads/Article-Page/autodiff-cover.png
+    desc: The paper explores the topic of Automatic/Algorithmic Differentiation (AD); an essential technology in contemporary machine learning models. It surveys a variety of methodologies to accomplish such concept and provides useful examples.
+    link: https://arxiv.org/pdf/1502.05767
+  - attention-paper:
+    title: Attention is all you need.
+    image_path: /assets/images/Recent-Reads/Article-Page/attention-cover.png
+    desc: This revolutionary article pioneers the idea of Attention. One of the many algorithms utilized in the now renowned GPT LLMs OpenAI implements. Great read to understand how a transformer (the 'T' on 'GPT') functions.
+    link: https://arxiv.org/pdf/1706.03762
+
 books:
   - no-longer-human: 
     title: No Longer Human
@@ -15,13 +27,6 @@ books:
     image_path: /assets/images/Recent-Reads/Book-covers/poh-cover.jpg
     desc: A beautiful book about the search for happiness. Depicting a 'classic' rags to riches story of a single-dad broker into a enterpreneur. Discussions like family trauma and crisis are unforgettable. Must read!
     link: "https://www.amazon.com/Pursuit-Happyness-Chris-Gardner/dp/0060744871"
-
-articles:
-  - test:
-    title: Attention is all you need.
-    image_path: /assets/images/Recent-Reads/Article-Page/attention-cover.png
-    desc: This revolutionary article pioneers the idea of Attention. One of the many algorithms utilized in the now renowned GPT LLMs OpenAI implements. Great read to understand how a transformer (the 'T' on 'GPT') functions.
-    link: https://arxiv.org/pdf/1706.03762
 
 ---
 

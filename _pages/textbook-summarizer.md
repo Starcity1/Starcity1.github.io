@@ -1,7 +1,9 @@
 ---
 title: "Textbook Summarizer"
+classes: wide
 category: blog
 permalink: /summarizer/
 ---
 
-Blog coming very soon!
+<img src="/assets/images/under_construction.png" style="width: 100%">
+

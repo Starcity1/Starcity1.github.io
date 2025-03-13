@@ -14,6 +14,7 @@ articles:
     title: AudioPaLM - A Large Language Model That Can Speak and Listen
     image_path: /assets/images/Recent-Reads/Article-Page/audio-palm-paper.png
     desc: A cool paper I found out at random. But a very cool application of NLP to make a audio-audio model. From what I understand this is a foundational model for LLMs which can understand and generate speech. In terms of contemporary research this is a bit old (2023), but foundational nonetheless!
+    
     link: https://arxiv.org/pdf/2306.12925
   - cdf-using-ad:
     title: Accelerating Particle and Fluid Simulations with Differentiable Graph Networks for Solving Forward and Inverse Problems

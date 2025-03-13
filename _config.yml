@@ -206,7 +206,6 @@ kramdown:
   math_engine: mathjax
   math_engine_opts:
     inline_math_delims: ['$', '$']
-  parse_block_html: true
 
 
 # Sass/SCSS

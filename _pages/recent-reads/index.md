@@ -5,6 +5,21 @@ permalink: /recent-reads/
 entries_layout: list
 
 articles:
+  - ar-modeling-rq-vae:
+    title: Autoregressive Image Generation using Residual Quantization
+    image_path: /assets/images/Recent-Reads/Article-Page/ar-modeling-rq-vae.png
+    desc: A paper that expands on the common methodology to compress high-dimensional datesets like embeddings into codebooks. They use this new technique called residual quantization which fixes the codebook's to a certain size and recursively quantizes the subsequent feature map in a coarse-to-fine manner.
+    link: https://arxiv.org/pdf/2203.01941
+  - audio-palm-paper:
+    title: AudioPaLM - A Large Language Model That Can Speak and Listen
+    image_path: /assets/images/Recent-Reads/Article-Page/audio-palm-paper.png
+    desc: A cool paper I found out at random. But a very cool application of NLP to make a audio-audio model. From what I understand this is a foundational model for LLMs which can understand and generate speech. In terms of contemporary research this is a bit old (2023), but foundational nonetheless!
+    link: https://arxiv.org/pdf/2306.12925
+  - cdf-using-ad:
+    title: Accelerating Particle and Fluid Simulations with Differentiable Graph Networks for Solving Forward and Inverse Problems
+    image_path: /assets/images/Recent-Reads/Article-Page/cdf-using-ad.png
+    desc: A very interesting paper on the applications of Automatic Differentiation outside the domain of machine learning. It is a bit of a hard read, specially for someone a little out of touch on the CDF community. Nevertheless, it is a great read!
+    link: https://arxiv.org/pdf/2309.13348
   - autodiff-paper:
     title: Automatic Differentiation in Machine Learning - a Survey
     image_path: /assets/images/Recent-Reads/Article-Page/autodiff-cover.png

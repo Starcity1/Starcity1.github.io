@@ -5,6 +5,11 @@ permalink: /recent-reads/
 entries_layout: list
 
 articles:
+  - vibe_coding:
+    title: Not all AI-assisted programming is vibe coding (but vibe coding rocks).
+    image_path: /assets/images/Recent-Reads/Article-Page/vibe-coding.png
+    desc: A really cool article that perfectly aligns with my views on the current misuse of AI tools for software development. It portrays how misusing tools such as ChatGPT, Claude, Gemini and other LLMs for coding can hinder the development process of a project. If anything, I believe that this article misses on another important aspect for young SWEs who are starting their career paths like me - the learning aspect.
+    link: https://simonwillison.net/2025/Mar/19/vibe-coding/
   - google_map_reduce:
     title: Map Reduce - Simplified Data Processing on Large Clusters
     image_path: /assets/images/Recent-Reads/Article-Page/google_map_reduce.png
